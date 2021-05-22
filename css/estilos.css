@@ -1,0 +1,22 @@
+/*cuando reproduce el audio no muestra el iframe, para no llenar la pantalla de iframe*/
+iframe
+{
+	display:none;
+}
+
+#instrucciones{
+  font-size: 120%;
+  
+  position: absolute;
+  left: 35%;
+  top: 10%; 
+  width: 650px;
+}
+#imagenFondo{
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 10%;
+  top: 30%;
+  background-color: red;
+}
